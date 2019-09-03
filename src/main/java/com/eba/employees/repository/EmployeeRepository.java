@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.eba.employees.model.Employee;
 
-@Repository
+// @Repository This annotation is not necessary
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
 }
